@@ -14,10 +14,11 @@ export default function Navbar() {
         <div className="mx-auto max-w-7xl px-7 py-2 flex items-center justify-between">
 
           {/* Logo */}
-          <h1 className="text-white text-2xl font-semibold tracking-wide">
-            SkyBridge<span className="font-light">ITC</span>
-          </h1>
-
+          <img
+          src="/logo.png"
+          alt="SkyBridge ITC"
+          className="h-10"
+          />
           {/* Navigation Links */}
           <ul className="flex gap-10 text-white font-medium">
             {navItems.map((item) => (
