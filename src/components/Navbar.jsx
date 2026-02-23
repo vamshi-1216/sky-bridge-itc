@@ -12,20 +12,16 @@ export default function Navbar() {
     <nav className="w-full fixed top-0 left-0 z-50">
       <div className="bg-gradient-to-r from-blue-900/95 to-blue-600/95 backdrop-blur-md shadow-md">
         <div className="mx-auto max-w-7xl px-7 h-20 flex items-center justify-between">
-
-          
           <NavLink to="/" className="flex flex-col items-center leading-none">
             <img
               src="/favicon2.png"
               alt="SkyBridge ITC"
               className="h-9 w-9 object-contain"
             />
-
             <h1 className="text-white text-lg font-semibold tracking-wide -mt-1">
               SkyBridge <span className="font-light">ITC</span>
             </h1>
           </NavLink>
-
           <ul className="flex gap-10 text-white font-medium items-center">
             {navItems.map((item) => (
               <NavLink

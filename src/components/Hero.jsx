@@ -1,11 +1,9 @@
 export default function Hero() {
   return (
     <section
-      className="relative text-white pt-32 pb-48 bg-cover bg-center"
-      style={{ 
-        backgroundImage: "url('/images/hero-bg.png')",
-        clipPath: "ellipse(150% 100% at 50% 0%)" 
-      }}
+      className="relative text-white pt-32 pb-48 bg-cover bg-center bg-[url('/images/hero-bg.png')]
+    [clip-path:ellipse(150%_100%_at_50%_0%)]"
+      
     >
      
     <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 via-blue-900/40 to-transparent"></div>
