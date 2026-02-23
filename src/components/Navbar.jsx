@@ -17,7 +17,7 @@ export default function Navbar() {
           <img
           src="/icons/SkyBridgeLogo.png"
           alt="SkyBridge ITC"
-          className="h-10"
+          className="h-20 w-20"
           />
           {/* Navigation Links */}
           <ul className="flex gap-10 text-white font-medium">
