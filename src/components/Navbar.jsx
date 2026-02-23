@@ -16,7 +16,7 @@ export default function Navbar() {
           {/* Logo + Text */}
           <NavLink to="/" className="flex flex-col items-center leading-none">
             <img
-              src="/favicon-v3.png"
+              src="/favicon2.png"
               alt="SkyBridge ITC"
               className="h-9 w-9 object-contain"
             />
