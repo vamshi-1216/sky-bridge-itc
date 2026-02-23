@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="bg-gradient-to-r from-blue-950 via-blue-900 to-blue-800 text-white pt-20 pb-10 shadow-[0_-8px_25px_rgba(0,0,0,0.4)]">
       <div className="max-w-7xl mx-auto px-6">
 
-        <div className="grid md:grid-cols-3 gap-12 border-b border-blue-800 pb-12">
+        <div className="grid grid-cols-3 gap-12 border-b border-blue-800 pb-12">
 
           <div className="max-w-sm">
             <h3 className="text-xl font-semibold tracking-wide mb-3">
@@ -17,7 +17,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="md:pl-12">
+          <div className="pl-12">
             <h3 className="text-xl font-semibold tracking-wide mb-3">
               Quick Links
             </h3>
