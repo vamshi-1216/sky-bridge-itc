@@ -15,7 +15,7 @@ export default function Navbar() {
 
           {/* Logo */}
           <img
-          src="/SkyBridgeLogo.png"
+          src="/icons/SkyBridgeLogo.png"
           alt="SkyBridge ITC"
           className="h-10"
           />
