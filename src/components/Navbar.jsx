@@ -11,29 +11,21 @@ export default function Navbar() {
   return (
     <nav className="w-full fixed top-0 left-0 z-50">
       <div className="bg-gradient-to-r from-blue-900/95 to-blue-600/95 backdrop-blur-md shadow-md">
+        <div className="mx-auto max-w-7xl px-7 py-2 flex items-center justify-between">
 
-        <div className="mx-auto max-w-7xl px-7 h-20 flex items-center justify-between">
-
-          {/* Logo + Brand Name (using favicon) */}
-          <NavLink to="/" className="flex flex-col items-center leading-none">
-            <img
-              src="/favicon.png"
-              alt="SkyBridge ITC"
-              className="h-11 w-11 object-contain"
-            />
-            <h1 className="text-white text-lg font-semibold tracking-wide -mt-1">
-              SkyBridge <span className="font-light">ITC</span>
-            </h1>
-          </NavLink>
+          {/* Logo */}
+          <h1 className="text-white text-2xl font-semibold tracking-wide">
+            SkyBridge<span className="font-light">ITC</span>
+          </h1>
 
           {/* Navigation Links */}
-          <ul className="flex gap-10 text-white font-medium items-center">
+          <ul className="flex gap-10 text-white font-medium">
             {navItems.map((item) => (
               <NavLink
                 key={item.name}
                 to={item.path}
                 className={({ isActive }) =>
-                  `relative group transition ${
+                  `relative group cursor-pointer transition ${
                     isActive ? "text-white" : "text-white/90"
                   }`
                 }
