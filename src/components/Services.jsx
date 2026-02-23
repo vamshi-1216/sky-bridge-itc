@@ -1,6 +1,6 @@
 export default function Services() {
   return (
-    <section className="bg-gray-100 py-20">
+    <section className="bg-gradient-to-r from-gray-100/90 via-gray-100/60 to-transparent py-20">
       <div className="max-w-7xl mx-auto px-6 text-center">
         
         <h2 className="text-3xl font-bold text-blue-800">
