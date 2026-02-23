@@ -2,7 +2,6 @@ export default function CTA() {
   return (
     <section className="relative overflow-hidden pt-40 pb-14 text-white bg-gradient-to-r from-blue-900 via-blue-700 to-blue-500">
 
-      {/* Top Half Moon Curve */}
       <div
         className="absolute top-0 left-0 w-full h-32 bg-gray-100"
         style={{ clipPath: "ellipse(75% 100% at 50% 0%)" }}

@@ -7,13 +7,13 @@ export default function Footer() {
 
           <div className="max-w-sm">
             <h3 className="text-xl font-semibold tracking-wide mb-3">
-              About Our Company
+            About Our Company
             </h3>
             <div className="w-12 h-[2px] bg-blue-500 mb-5"></div>
 
             <p className="text-blue-200 leading-relaxed text-[15px]">
-              Our years in staffing and consulting unveiled a critical industry gap —
-              a genuine, hands-on partner focused on creating perfect employer-employee matches.
+            Our years in staffing and consulting unveiled a critical industry gap —
+            a genuine, hands-on partner focused on creating perfect employer-employee matches.
             </p>
           </div>
 

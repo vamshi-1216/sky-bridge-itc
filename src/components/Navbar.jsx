@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className="bg-gradient-to-r from-blue-900/95 to-blue-600/95 backdrop-blur-md shadow-md">
         <div className="mx-auto max-w-7xl px-7 h-20 flex items-center justify-between">
 
-          {/* Logo + Text */}
+          
           <NavLink to="/" className="flex flex-col items-center leading-none">
             <img
               src="/favicon2.png"
@@ -51,7 +51,7 @@ export default function Navbar() {
             ))}
           </ul>
 
-          {/* CTA Button */}
+         
           <button className="bg-blue-500 hover:bg-blue-400 transition px-6 py-2 rounded-lg text-white font-semibold shadow-lg">
             Get Started
           </button>

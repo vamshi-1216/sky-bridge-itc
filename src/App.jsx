@@ -10,8 +10,6 @@ export default function App() {
   return (
     <BrowserRouter>
       <Navbar />
-
-      {/* Padding so content doesn't hide behind fixed navbar */}
       <div className="">
         <Routes>
           <Route path="/" element={<Home />} />

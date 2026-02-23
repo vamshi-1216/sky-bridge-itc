@@ -7,10 +7,8 @@ export default function Features() {
           Why Choose Skybridge?
         </h2>
 
-        {/* Divider */}
         <div className="w-100 h-1 bg-gray-300 mx-auto mt-4 rounded"></div>
 
-        {/* Features Row */}
         <div className="mt-12 grid md:grid-cols-4 gap-10">
           {[
             { img: "/icons/industry.png", title: "Industry Expertise", desc: "Years of experience." },
