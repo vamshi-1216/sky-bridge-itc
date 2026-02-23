@@ -1,22 +1,34 @@
+import { NavLink } from "react-router-dom";
+
 export default function Footer() {
+
+  const quickLinks = [
+    { name: "Home", path: "/" },
+    { name: "About Us", path: "/about" },
+    { name: "Services", path: "/services" },
+    { name: "Contact", path: "/contact" },
+  ];
+
   return (
     <footer className="bg-gradient-to-r from-blue-950 via-blue-900 to-blue-800 text-white pt-20 pb-10 shadow-[0_-8px_25px_rgba(0,0,0,0.4)]">
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="grid grid-cols-3 gap-12 border-b border-blue-800 pb-12">
 
+          {/* About */}
           <div className="max-w-sm">
             <h3 className="text-xl font-semibold tracking-wide mb-3">
-            About Our Company
+              About Our Company
             </h3>
             <div className="w-12 h-[2px] bg-blue-500 mb-5"></div>
 
             <p className="text-blue-200 leading-relaxed text-[15px]">
-            Our years in staffing and consulting unveiled a critical industry gap —
-            a genuine, hands-on partner focused on creating perfect employer-employee matches.
+              Our years in staffing and consulting unveiled a critical industry gap —
+              a genuine, hands-on partner focused on creating perfect employer-employee matches.
             </p>
           </div>
 
+          {/* Quick Links */}
           <div className="pl-12">
             <h3 className="text-xl font-semibold tracking-wide mb-3">
               Quick Links
@@ -24,17 +36,20 @@ export default function Footer() {
             <div className="w-12 h-[2px] bg-blue-500 mb-5"></div>
 
             <ul className="space-y-3 text-blue-200 text-[15px]">
-              {["Home", "About Us", "Services", "Contact"].map((item) => (
-                <li
-                  key={item}
-                  className="cursor-pointer hover:text-white transition duration-300 hover:translate-x-1"
-                >
-                  › {item}
+              {quickLinks.map((item) => (
+                <li key={item.name}>
+                  <NavLink
+                    to={item.path}
+                    className="block cursor-pointer hover:text-white transition duration-300 hover:translate-x-1"
+                  >
+                    › {item.name}
+                  </NavLink>
                 </li>
               ))}
             </ul>
           </div>
 
+          {/* Contact */}
           <div>
             <h3 className="text-xl font-semibold tracking-wide mb-3">
               Contact Us
