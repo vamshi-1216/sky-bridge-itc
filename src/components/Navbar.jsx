@@ -26,7 +26,6 @@ export default function Navbar() {
             </h1>
           </NavLink>
 
-          {/* Navigation Links */}
           <ul className="flex gap-10 text-white font-medium items-center">
             {navItems.map((item) => (
               <NavLink
