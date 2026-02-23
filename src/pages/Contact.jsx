@@ -10,7 +10,7 @@ const Contact = () => {
     <Navbar/>
     <ContactHero/>
     <CTA/>
-    <Footer/>
+  
     </>
   )
 }

@@ -11,7 +11,7 @@ const ServicesPage = () => {
         <Navbar/>
         <ServicesHero/>
         <CTA/>
-        <Footer/>
+        
 
         </>
   )

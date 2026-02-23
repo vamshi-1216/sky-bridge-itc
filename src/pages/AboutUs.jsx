@@ -10,7 +10,7 @@ const AboutUs = () => {
     <Navbar/>
     <AboutUsHero/>
     <CTA/>
-    <Footer/>
+
     </>
   )
 }
