@@ -6,7 +6,7 @@ export default function Services() {
         <h2 className="text-3xl font-bold text-blue-800">
         Your Premier Staffing & Technology Partner
         </h2>
-        <div className="w-200 h-1 bg-gray-300 mx-auto mt-4 rounded"></div>
+        <div className="w-200 h-[2px] bg-gray-300 mx-auto mt-4 rounded"></div>
 
         <p className="mt-4 text-gray-700">
         Skybridge is dedicated to delivering exceptional staffing and advanced tech solutions

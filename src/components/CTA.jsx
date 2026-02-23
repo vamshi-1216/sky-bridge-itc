@@ -3,8 +3,7 @@ export default function CTA() {
     <section className="relative overflow-hidden pt-40 pb-14 text-white bg-gradient-to-r from-blue-900 via-blue-700 to-blue-500">
 
       <div
-        className="absolute top-0 left-0 w-full h-32 bg-gray-100"
-        style={{ clipPath: "ellipse(75% 100% at 50% 0%)" }}
+        className="absolute top-0 left-0 w-full h-32 bg-gray-100 [clip-path:ellipse(75%_100%_at_50%_0%)]"
       ></div>
 
       <div className="relative max-w-4xl mx-auto px-6 text-center">
